@@ -1,0 +1,19 @@
+.user_name{
+    font-size:14px;
+    font-weight: bold;
+}
+.comments-list .media{
+    border-bottom: 1px dotted #ccc;
+}
+.media-left img {
+    width: 50px;
+}
+
+.media {
+    margin-bottom: 30px;
+}
+
+.hide-block {
+    display: none;
+    margin-top: 25px;
+}
