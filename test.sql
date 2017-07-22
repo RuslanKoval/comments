@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 22 2017 г., 18:37
+-- Время создания: Июл 22 2017 г., 18:50
 -- Версия сервера: 5.5.53
 -- Версия PHP: 5.6.29
 
@@ -42,7 +42,6 @@ CREATE TABLE `comments` (
 INSERT INTO `comments` (`id`, `user_id`, `parent`, `text`, `created_at`, `updated_at`) VALUES
 (614, 13, NULL, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam at blanditiis cumque dolores ducimus error eum excepturi id illum ipsa, iure laboriosam laborum magnam minus molestiae nihil nisi nostrum nulla, numquam officia omnis perferendis placeat quam quasi quia quidem repellat repudiandae similique suscipit, tenetur vitae voluptatem. Ea, voluptate.', 1500737664, NULL),
 (615, 13, NULL, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam at blanditiis cumque dolores ducimus error eum excepturi id illum ipsa, iure laboriosam laborum magnam minus molestiae nihil nisi nostrum nulla, numquam officia omnis perferendis placeat quam quasi quia quidem repellat repudiandae similique suscipit, tenetur vitae voluptatem. Ea, voluptate.', 1500737687, NULL),
-(616, 13, NULL, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam at blanditiis cumque dolores ducimus error eum excepturi id illum ipsa, iure laboriosam laborum magnam minus molestiae nihil nisi nostrum nulla, numquam officia omnis perferendis placeat quam quasi quia quidem repellat repudiandae similique suscipit, tenetur vitae voluptatem. Ea, voluptate.', 1500737691, NULL),
 (617, 14, NULL, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam at blanditiis cumque dolores ducimus error eum excepturi id illum ipsa, iure laboriosam laborum magnam minus molestiae nihil nisi nostrum nulla, numquam officia omnis perferendis placeat quam quasi quia quidem repellat repudiandae similique suscipit, tenetur vitae voluptatem. Ea, voluptate.', 1500737703, NULL),
 (618, 14, 614, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam at blanditiis cumque dolores ducimus error eum excepturi id illum ipsa, iure laboriosam laborum magnam minus molestiae nihil nisi nostrum nulla, numquam officia omnis perferendis placeat quam quasi quia quidem repellat repudiandae similique suscipit, tenetur vitae voluptatem. Ea, voluptate.', 1500737712, NULL),
 (619, 14, 615, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam at blanditiis cumque dolores ducimus error eum excepturi id illum ipsa, iure laboriosam laborum magnam minus molestiae nihil nisi nostrum nulla, numquam officia omnis perferendis placeat quam quasi quia quidem repellat repudiandae similique suscipit, tenetur vitae voluptatem. Ea, voluptate.', 1500737718, NULL),
